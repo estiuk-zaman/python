@@ -1,0 +1,11 @@
+course='Python is fun'
+print(len(course))
+print(course)
+print(course.upper())
+print(course.lower())
+print(course.find('Y'))
+print(course.find('y'))
+print(course.find('fun'))
+print(course.replace('fun','amazing'))
+print('Fun' in course)
+print('fun' in course)
