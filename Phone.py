@@ -4,6 +4,7 @@ num_mapping ={
     "2":"Two",
     "3":"Three"
 }
-
+output=""
 for ch in number:
-    print(num_mapping.get(ch))
+    output+=(num_mapping.get(ch)+" ")
+print(output)
