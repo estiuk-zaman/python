@@ -1,0 +1,11 @@
+import numpy as np
+arr = np.array([[1, 2.0, 3], [4, 5, 6]])
+print(arr.shape) 
+print(arr.size)
+print(arr.ndim)
+print(arr.dtype)
+intArr = arr.astype(int)
+print(intArr)
+StringArr= intArr.astype(str)
+print(StringArr)
+print(StringArr.dtype)
