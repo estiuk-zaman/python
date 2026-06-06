@@ -1,0 +1,11 @@
+import numpy as np
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+concatenated = np.concatenate((a, b), axis=0)
+print(concatenated)
+a_2d = np.array([[1, 2], [3, 4]])
+b_2d = np.array([[5, 6], [7, 8]])
+concatenated_2d = np.concatenate((a_2d, b_2d),axis=0)
+print(concatenated_2d)
+concatenated_2d_axis1 = np.concatenate((a_2d, b_2d),axis=1)
+print(concatenated_2d_axis1)
